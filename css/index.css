@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+*{
+	text-decoration:none;
+  padding:0;
+  margin:0;
+}
+
+
+header{
+background-color: #fff;
+width: 100%;
+height:100px;
+}
+
+header .header-brand {
+font-family: Catamaran;
+font-size: 100px;
+font-weight: 900;
+color: #111;
+display:block;
+margin: 0 auto;
+text-align:center;
+padding: 20px 0;
+text-align: center;
+}
+
+header nav ul {
+
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+}
+
+header nav ul li {
+	display: inline-block;
+	float:left;
+	list-style:none;
+	padding:0 25px;
+	text-align:center;
+}
+
+header nav ul li a {
+	font-family: Catamaran;
+	font-size: 50px;
+	color: #111;
+	display:block;
+	margin: 0 auto;
+	text-align:center;
+	padding: 20px 0;
+
+}
+
+header .header-restaurants {
+	display:none;
+}
+
+main {
+	text-align:center;
+	display:block;
+	margin: 0 auto;
+	text-align:center;
+	padding: 200px 0;
+}
+
+
+/*INDEX*/
+
+ .index-banner {
+	width: 100%;
+	height:calc(100vh - 100px);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('C:/Users/carom/Documents/Project_Code_First/img/table.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: 'Arimo', sans-serif;
+	text-align:center;
+}
+.index-banner h2 {
+color: #fff;
+font-size:40px;
+text-align: center;
+font-weight:900;
+text-shadow: 2px 2px 8px #111;
+display:table;
+}
+
+.index-banner h1 {
+	color: #fff;
+	font-size:40px;
+	font-weight:900;
+	font-weight:900;
+	text-shadow: 2px 2px 8px #111;
+	text-align: center;
+	line-height:40px;
+	display:table;
+}
+
+.index-boxlink-1 {
+ margin: 30px 30px 0;
+ width: calc(100%-60px);
+ height: 75px;
+ background-color: #f3f3f3;
+ text-align: center;
+}
+.index-boxlink-2 {
+ margin: 30px 30px 0;
+ width: calc(100%-60px);
+ height: 75px;
+ background-color: #f3f3f3;
+ text-align: center;
+}
+.index-boxlink-3{
+ margin: 30px 30px 0;
+ width: calc(100%-60px);
+ height: 75px;
+ background-color: #f3f3f3;
+ text-align: center;
+}
+
+.index-boxlink-4{
+ margin: 30px 30px 0;
+ width: calc(100%-60px);
+ height: 75px;
+ background-color: #f3f3f3;
+ text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#button1{
+  width:  600px;
+  height: 75px;
+  font-size: 35px;
+  font-family: 'Cinzel', serif
+  position: fixed;
+ top: 100%;
+ left: 75%;
+ margin-top: 175px;
+margin-left: -35px;
+
+}
+#button2{
+    width: 600px;
+    height: 75px;
+    font-size: 35px;
+  font-family: 'Cinzel', serif
+  position: fixed;
+ top: 100%;
+ left: 75%;
+ margin-top: 0px;
+ margin-left: -35px;
+}
+#button3{
+    width: 600px;
+    height: 75px;
+      font-size: 35px;
+  font-family: 'Cinzel', serif
+  position: fixed;
+ top: 100%;
+ left: 75%;
+ margin-top: 0px;
+margin-left: -35px;
+}
+
+#button4{
+    width:600px;
+    height: 75px;
+    font-size: 35px;
+    font-family: 'Cinzel', serif
+    position: fixed;
+   top: 100%;
+   left: 75%;
+   margin-top: 0px;
+   margin-left: -35px;
+}#container{
+    text-align: center;
+    float:bottom;
+  vertical-align::center;
+}
+<div class="btn-group-vertical">
+<button type="button" id="button1" class="btn btn-dark">West End</button>
+<button type="button" id="button2" class="btn btn-dark">City Center</button>
+<button type="button" id="button3" class="btn btn-dark">East End</button>
+<button type="button" id="button4" class="btn btn-dark">South End</button>
+</div>
