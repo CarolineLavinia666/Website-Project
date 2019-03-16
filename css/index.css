@@ -119,7 +119,7 @@ main {
  .index-banner {
 	width: 100%;
 	height:calc(100vh - 100px);
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('C:/Users/carom/Documents/Project_Code_First/img/table.jpg');
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('pictures/restaurant.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -127,7 +127,7 @@ main {
 	font-family: 'Arimo', sans-serif;
 	text-align:center;
 }
-.index-banner h2 {
+.vertical-center h2 {
 color: #fff;
 font-size:40px;
 text-align: center;
@@ -136,7 +136,7 @@ text-shadow: 2px 2px 8px #111;
 display:table;
 }
 
-.index-banner h1 {
+.vertical-center h1 {
 	color: #fff;
 	font-size:40px;
 	font-weight:900;
