@@ -3,6 +3,11 @@
    License: none (public domain)
 */
 
+* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -157,6 +162,7 @@ text-align:center;
  height: 75px;
  background-color: #f3f3f3;
  text-align: center;
+ color:black;
 }
 .index-boxlink-2 {
  margin: 30px 30px 0;
@@ -164,6 +170,7 @@ text-align:center;
  height: 75px;
  background-color: #f3f3f3;
  text-align: center;
+ color:black;
 }
 .index-boxlink-3{
  margin: 30px 30px 0;
@@ -171,6 +178,7 @@ text-align:center;
  height: 75px;
  background-color: #f3f3f3;
  text-align: center;
+ color:black;
 }
 
 .index-boxlink-4{
@@ -179,8 +187,35 @@ text-align:center;
  height: 75px;
  background-color: #f3f3f3;
  text-align: center;
+ color:black;
 }
 
+footer{
+width: calc(100%-80px);
+padding: 40px 40px;
+background-color: #111;
+margin-top:0px;
+height:110px;
+}
+
+footer ul {
+	font-family: Catamaran;
+	font-color:white;
+	width: fit-content;
+	float:left;
+	padding-left:20px;
+}
+
+footer ul li  {
+	display:block;
+	list-style:none;
+
+}
+
+footer ul li a  {
+	font-family: Catamaran;
+	color:white;
+}
 
 #button1{
   width:  600px;
