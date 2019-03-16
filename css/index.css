@@ -123,9 +123,7 @@ main {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	color: white;
-	font-family: 'Arimo', sans-serif;
-	text-align:center;
+
 }
 .vertical-center h2 {
 color: #fff;
@@ -134,6 +132,9 @@ text-align: center;
 font-weight:900;
 text-shadow: 2px 2px 8px #111;
 display:table;
+color: white;
+font-family: 'Arimo', sans-serif;
+text-align:center;
 }
 
 .vertical-center h1 {
@@ -145,6 +146,9 @@ display:table;
 	text-align: center;
 	line-height:40px;
 	display:table;
+	color: white;
+	font-family: 'Arimo', sans-serif;
+	text-align:center;
 }
 
 .index-boxlink-1 {
@@ -176,15 +180,6 @@ display:table;
  background-color: #f3f3f3;
  text-align: center;
 }
-
-
-
-
-
-
-
-
-
 
 
 #button1{
