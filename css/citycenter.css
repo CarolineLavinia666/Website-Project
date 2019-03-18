@@ -90,3 +90,7 @@ text-align:center;
 .card-columns {
 margin-top: 40px;
 }
+
+.text-muted {
+  color: white;
+}
