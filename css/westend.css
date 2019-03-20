@@ -57,6 +57,7 @@ table {
 
 *{
   background-image: url(../pictures/wood.jpg);
+  font-family:Catamaran;
 	text-decoration:none;
   padding:0;
   margin:0;
@@ -94,4 +95,8 @@ margin-top: 40px;
 
 .text-muted {
 justify-content: flex-start;
+}
+
+.box1{
+  text-align:center;
 }
