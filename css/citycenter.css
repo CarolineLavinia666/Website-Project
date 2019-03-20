@@ -56,7 +56,8 @@ table {
 
 *{
   background-image: url(../pictures/wood.jpg);
-	text-decoration:none;
+  font-family:Catamaran;
+  text-decoration:none;
   padding:0;
   margin:0;
   color:white;
