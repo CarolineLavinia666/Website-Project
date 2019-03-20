@@ -71,32 +71,10 @@ table {
   color:white;
   }
 
-  .header-brand {
-  font-family: Catamaran;
-  font-size: 70px;
-  font-weight: 700;
-  display:block;
-  margin: 0 auto;
-  padding: 20px 0;
-  text-align: left;
-  color:white;
+
+  .active {
+    font-size:20px;
   }
-
-nav {
-font-family:Catamaran;
-color:white;
-font-size: 50px;
-text-align:center;
-}
-
-.card-columns {
-margin-top: 40px;
-}
-
-.text-muted {
-justify-content: flex-start;
-}
-
-.box1{
-  text-align:center;
-}
+  .nav {
+    font-size:10px;
+  }
